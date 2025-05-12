@@ -3,6 +3,9 @@ import "../common/signup.css";
 import background from "../Images/p.jpg";
 import logo from "../Images/logo.png";
 import TextField from "@mui/material/TextField";
+import icon1 from "../Images/icon1.png";
+import icon2 from "../Images/icon2.png";
+import icon3 from "../Images/icon3.png";
 
 export default function Signup() {
   return (
@@ -59,7 +62,39 @@ export default function Signup() {
                   </div>
                 </div>
               </div>
-              
+              <div className="sub-5">
+                <div className="button-outer">
+                  <button className="login-button" type="submit">
+                    Login
+                  </button>
+                </div>
+              </div>
+
+              <div className="sub-6">
+               <strong>OR</strong></div>
+
+              <div className="sub-7">
+                <div className="icon">
+                  <div className="box">
+                    <img src={icon1} alt="icon 1" />
+                  </div>
+                  <div className="box">
+                    <img src={icon2} alt="icon 2" />
+                  </div>
+                  <div className="box">
+                    <img src={icon3} alt="icon 3" />
+                  </div>
+                </div>
+              </div>
+
+              <div className="sub-8">
+                <div className="text-L5">
+                  <span className="signup-text">Don’t have an account?</span>
+                  <a href="/registration" className="signup-link">
+                    Sign Up
+                  </a>
+                </div>
+              </div>
             </div>
           </div>
 

@@ -35,7 +35,7 @@
 
 .sub-1 {
   width: 100%;
-  height: 15%;
+  height: 17%;
   padding: 0 0 0 0;
   display: flex;
   justify-content: center;
@@ -72,6 +72,11 @@
   width: 100%;
   height: 5%;
   padding: 5% 0 0 0;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  color: #000000;
 }
 .sub-7 {
   width: 100%;
@@ -82,6 +87,9 @@
   width: 100%;
   height: 5%;
   padding: 10px 0 10px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .logo {
@@ -164,11 +172,12 @@
 }
 
 .text-L3 {
-  width: 80%;
+  width: 100%;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   font-size: 15px;
+  gap: 50px;
 }
 
 .checkbox {
@@ -182,22 +191,22 @@
 .keepme-label {
   display: flex;
   align-items: center;
-  font-size: 90%;
+  font-size: 13px;
   color: #070707;
   font-family: "Montserrat", sans-serif;
-  gap: 8px;
+  gap: 6px;
 }
 
 .keepme-checkbox {
   width: 10%;
-  height: 2vh;
+  height: 3vh;
   accent-color: #ab48c9; /* Teal style checkbox like image */
   cursor: pointer;
  
 }
 
 .forgot-link {
-  font-size: 90%;
+  font-size: 13px;
   text-decoration: none;
   color: #61217a;
   float: right;
@@ -208,4 +217,103 @@
 
 .forgot-link:hover {
   color: #9a42d4;
+}
+
+
+
+.button-outer {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+
+.login-button {
+  width: 100%;
+  height: 4vh;
+  background-color:#9a42d4;
+  color: white;
+  font-size: 90%;
+  font-weight: 600;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: "poppins", sans-serif;
+  transition: background-color 0.2s ease;
+ 
+
+}
+
+.login-button:hover {
+  background-color:#61217a;
+}
+
+.icon {
+  width: 100%;
+  display: flex;
+  justify-content: center; /* center horizontally */
+  align-items: center;
+}
+
+
+.box {
+  width:15%;       /* bigger circles to fit logos nicely */
+  height: 95%;
+ 
+  border-radius: 5%;
+  display: flex;      /* center image inside */
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  overflow: hidden; 
+}
+
+.box img {
+  max-width: 60%;     /* scale logo inside circle */
+  max-height: 60%;
+  object-fit: contain;
+  display: block;
+}
+
+.text-L5 {
+  width: 80%;
+  justify-content: center;
+  align-items: center;
+  color: #070707;
+  font-family: 40%;
+  display: flex;
+  gap: 4px;
+}
+
+.signup-text {
+  font-size: 13px;
+  color: #000000;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-style: bold;
+  font-weight: 600;
+ 
+  
+  
+}
+
+.signup-link {
+ color:#9a42d4;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 13px;
+  
+
+  
+}
+
+.signup-link:hover {
+   color:#61217a;
+}
+
+
+.t-1{
+    justify-content: center;
+    display: flex;
 }
