@@ -1,6 +1,6 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
-import Signup from "./Pages/signup";
+import Signup from "./Pages/Signup";
 
 const App: React.FC = () => {
   return (
