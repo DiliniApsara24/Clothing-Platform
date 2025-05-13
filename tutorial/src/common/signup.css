@@ -11,7 +11,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgb(235, 216, 248);
+  background-color: rgb(203, 199, 206);
 }
 
 .main-sub {
@@ -299,7 +299,7 @@
 }
 
 .signup-link {
- color:#9a42d4;
+ color:#61217a;
   text-decoration: none;
   font-weight: 600;
   font-size: 13px;
@@ -309,7 +309,7 @@
 }
 
 .signup-link:hover {
-   color:#61217a;
+   color:#9a42d4;
 }
 
 
