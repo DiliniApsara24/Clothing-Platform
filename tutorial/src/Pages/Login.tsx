@@ -1,13 +1,14 @@
 import React from "react";
-import "../common/signup.css";
+import "../common/login.css";
 import background from "../Images/p.jpg";
 import logo from "../Images/logo.png";
 import TextField from "@mui/material/TextField";
 import icon1 from "../Images/icon1.png";
 import icon2 from "../Images/icon2.png";
 import icon3 from "../Images/icon3.png";
+import { Link } from "react-router-dom";
 
-export default function Signup() {
+export default function Login() {
   return (
     <div>
       <div className="main-outer">
@@ -71,7 +72,8 @@ export default function Signup() {
               </div>
 
               <div className="sub-6">
-               <strong>OR</strong></div>
+                <strong>OR</strong>
+              </div>
 
               <div className="sub-7">
                 <div className="icon">
@@ -90,9 +92,9 @@ export default function Signup() {
               <div className="sub-8">
                 <div className="text-L5">
                   <span className="signup-text">Don’t have an account?</span>
-                  <a href="/registration" className="signup-link">
+                  <Link to="/signup" className="signup-link">
                     Sign Up
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>

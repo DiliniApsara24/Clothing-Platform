@@ -1,12 +1,12 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
-import Signup from "./Pages/Signup";
+import Login from "./Pages/Login";
 
 const App: React.FC = () => {
   return (
     <Routes>
-      <Route path="/" element={<Signup />} />
-      <Route path="/signup" element={<Signup />} />
+      <Route path="/" element={<Login />} />
+      <Route path="/login" element={<Login />} />
     </Routes>
   );
 };
