@@ -1,0 +1,157 @@
+/* Base styles */
+
+* {
+  border: 1px solid #d44747;
+}
+
+.main-nav-outer {
+  width: 100%;
+  height: 10vh;
+  padding: 0 0 0 58%;
+}
+
+.main-nav-sub{
+width: 40%;
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav {
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+  background: white;
+  color: rgb(10, 10, 10);
+  box-shadow: 0 2px 4px #ccc;
+}
+
+.nav.dark {
+  background: #222;
+  color: white;
+}
+
+.logo {
+  height: 40px;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+
+}
+
+.links a,
+.shop button {
+  background: none;
+  border: none;
+  color: inherit;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.links a:hover,
+.shop button:hover {
+  color: #cf9af1;
+}
+
+.cart {
+  height: 24px;
+  vertical-align: middle;
+}
+
+/* Shop dropdown */
+.shop {
+  position: relative;
+}
+
+.drop {
+  position: absolute;
+  top: 35px;
+  background: white;
+  border: 1px solid #ddd;
+  display: flex;
+  flex-direction: column;
+  z-index: 100;
+  min-width: 120px;
+}
+
+.nav.dark .drop {
+  background: #333;
+  border-color: #444;
+}
+
+.drop a {
+  padding: 10px;
+  color: black;
+}
+
+.nav.dark .drop a {
+  color: white;
+}
+
+.drop a:hover {
+  background: #f0f0f0;
+}
+
+.nav.dark .drop a:hover {
+  background: #444;
+}
+
+/* Dark mode button */
+.mode {
+  background: none;
+  border: 1px solid #888;
+  border-radius: 4px;
+  padding: 4px 8px;
+  cursor: pointer;
+}
+
+.nav.dark .mode {
+  color: white;
+  border-color: #ccc;
+}
+
+/* Hamburger menu */
+.menu {
+  display: none;
+  font-size: 26px;
+  cursor: pointer;
+}
+
+/* Mobile */
+@media screen and (max-width: 768px) {
+  .links {
+    display: none;
+    flex-direction: column;
+    background: white;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    width: 100%;
+    padding: 20px;
+  }
+
+  .nav.dark .links {
+    background: #222;
+  }
+
+  .links.show {
+    display: flex;
+  }
+
+  .menu {
+    display: block;
+  }
+}
+
+/* Dark background */
+body.dark {
+  background: #111;
+  color: white;
+}
