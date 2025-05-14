@@ -20,33 +20,44 @@ const Home: React.FC = () => {
 
   return (
     <div className="main-home-outer">
-    <div className="home">
-      <motion.div
-        className="hero-section"
-        initial={{ opacity: 0, y: -50 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.8 }}
-      >
-       
-      </motion.div>
+      <div className="home">
+        {/* Hero Text Section */}
+        <motion.div
+          className="hero-section"
+          initial={{ opacity: 0, y: -50 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8 }}
+        >
+         
+        </motion.div>
 
-      <div className="hero-slideshow">
-        <AnimatePresence mode="wait">
-          <motion.img
-            key={index}
-            src={images[index]}
-            alt={`Hero ${index + 1}`}
-            className="hero-img"
-            initial={{ opacity: 0, x: 100 }}
-            animate={{ opacity: 1, x: 0 }}
-            exit={{ opacity: 0, x: -100 }}
-            transition={{ duration: 1 }}
-          />
-        </AnimatePresence>
-
+        {/* Slideshow Section */}
+        <div className="hero-slideshow">
+          <AnimatePresence mode="wait">
+            <motion.img
+              key={index}
+              src={images[index]}
+              alt={`Hero ${index + 1}`}
+              className="hero-img"
+              initial={{ opacity: 0, x: 100 }}
+              animate={{ opacity: 1, x: 0 }}
+              exit={{ opacity: 0, x: -100 }}
+              transition={{ duration: 1 }}
+            />
+          </AnimatePresence>
+        </div>
       </div>
-      <div className="home-text"></div>
-    </div>
+
+      {/* Additional Section */}
+      <div className="home-text">
+        <h2 className="h-text-1">Why Shop With Us?</h2>
+        <p>
+          ✨ High quality clothing at affordable prices. <br />
+          👚 Styles for men, women, and kids. <br />
+          🚚 Fast delivery & easy returns. <br />
+          👜 Explore accessories, shoes, and more!
+        </p>
+      </div>
     </div>
   );
 };
