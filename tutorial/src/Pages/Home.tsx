@@ -48,12 +48,15 @@ const Home: React.FC = () => {
         </div>
       </div>
 
-      {/* Additional Section */}
+
       <div className="home-text">
-        <h2 className="h-text-1"> Welcome To Cheerpeak Fashion</h2>
-        <p>
-          Welcome To Cheerpeak Fashion <br />
+        <div className="sub-text-home">
+        <p className="text-home-welcome">
+         <strong>Welcome to our fashion store</strong> 
         </p>
+        <p className="text-home-body"></p>
+        
+        </div>
       </div>
     </div>
   );

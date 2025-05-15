@@ -35,23 +35,25 @@
 .home-text {
   width: 30%;
   height: 80%;
-  background-color: #fff;
-  border-radius: 0 10px 10px 0px;
-  display: block;
-  justify-content: center;
-  align-items: center;
-  padding: 0px;
-
-}
-
-.home-text-1{
-
-
   display: flex;
   justify-content: center;
   align-items: center;
+  
 
+}
 
+.sub-text-home{
+  width: 90%;
+  height: 40%;
+}
+
+.text-home-welcome{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
 }
 
 
