@@ -50,12 +50,9 @@ const Home: React.FC = () => {
 
       {/* Additional Section */}
       <div className="home-text">
-        <h2 className="h-text-1">Why Shop With Us?</h2>
+        <h2 className="h-text-1"> Welcome To Cheerpeak Fashion</h2>
         <p>
-          ✨ High quality clothing at affordable prices. <br />
-          👚 Styles for men, women, and kids. <br />
-          🚚 Fast delivery & easy returns. <br />
-          👜 Explore accessories, shoes, and more!
+          Welcome To Cheerpeak Fashion <br />
         </p>
       </div>
     </div>
