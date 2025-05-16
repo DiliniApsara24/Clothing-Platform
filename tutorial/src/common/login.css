@@ -45,7 +45,7 @@
 .sub-2 {
   width: 100%;
   height: 13%;
-  padding: 3% 0 0 0;
+  padding: 1% 0 0 0;
   
 }
 
@@ -57,7 +57,7 @@
 .sub-4 {
   width: 100%;
   height: 5%;
-  padding: 5% 0 0 0;
+  padding: 10% 0 0 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -66,12 +66,12 @@
 .sub-5 {
   width: 100%;
   height: 7%;
-  padding: 5% 0 0 0;
+  padding: 10% 0 0 0;
 }
 .sub-6 {
   width: 100%;
   height: 5%;
-  padding: 5% 0 0 0;
+  padding: 20% 0 0 0;
   justify-content: center;
   display: flex;
   align-items: center;
@@ -81,12 +81,12 @@
 .sub-7 {
   width: 100%;
   height: 10%;
-  padding: 5% 0 0 0;
+  padding: 10% 0 0 0;
 }
 .sub-8 {
   width: 100%;
   height: 5%;
-  padding: 10px 0 10px 0px;
+  padding: 20% 0 10px 0px;
   display: flex;
   justify-content: center;
   align-items: center;
