@@ -7,8 +7,11 @@ import hero2 from "../Images/dress2.jpg";
 import hero3 from "../Images/dress3.jpg";
 import hero4 from "../Images/dress4.jpg";
 import hero5 from "../Images/dress5.jpg";
+import hero6 from "../Images/dress6.png";
+import hero7 from "../Images/dress7.png";
+import hero8 from "../Images/dress8.png"
 
-const images = [hero1, hero2, hero3,hero4,hero5];
+const images = [hero1, hero2, hero3,hero4,hero5,hero6,hero7,hero8];
 
 const Home: React.FC = () => {
   const [index, setIndex] = useState(0);
