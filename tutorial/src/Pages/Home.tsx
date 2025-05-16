@@ -13,7 +13,7 @@ import hero8 from "../Images/dress8.jpg";
 import hero9 from "../Images/dress9.jpg";
 import hero10 from "../Images/dress10.jpg";
 
-const images = [hero1, hero2, hero3,hero4,hero5,hero6,hero7,hero8,hero9,hero10];
+const images = [hero1, hero2, hero3, hero4, hero5, hero6, hero7, hero8, hero9, hero10];
 
 const Home: React.FC = () => {
   const [index, setIndex] = useState(0);
@@ -27,6 +27,18 @@ const Home: React.FC = () => {
 
   return (
     <div className="main-home-outer">
+      <AnimatePresence mode="wait">
+        <motion.div
+          key={index}
+          className="background-slideshow"
+          initial={{ opacity: 0, x: 100 }}
+          animate={{ opacity: 1, x: 0 }}
+          exit={{ opacity: 0, x: -100 }}
+          transition={{ duration: 1 }}
+          style={{ backgroundImage: `url(${images[index]})` }}
+        />
+      </AnimatePresence>
+
       <div className="home">
         {/* Hero Text Section */}
         <motion.div
@@ -35,34 +47,15 @@ const Home: React.FC = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
         >
-         
+          <h1 className="text-home-welcome">Welcome to our fashion store</h1>
         </motion.div>
 
-        {/* Slideshow Section */}
-        <div className="hero-slideshow">
-          <AnimatePresence mode="wait">
-            <motion.img
-              key={index}
-              src={images[index]}
-              alt={`Hero ${index + 1}`}
-              className="hero-img"
-              initial={{ opacity: 0, x: 100 }}
-              animate={{ opacity: 1, x: 0 }}
-              exit={{ opacity: 0, x: -100 }}
-              transition={{ duration: 1 }}
-            />
-          </AnimatePresence>
-        </div>
-      </div>
-
-
-      <div className="home-text">
-        <div className="sub-text-home">
-        <p className="text-home-welcome">
-         <strong>Welcome to our fashion store</strong> 
-        </p>
-        <p className="text-home-body"></p>
-        
+        <div className="home-text">
+          <div className="sub-text-home">
+            <p className="text-home-body">
+              Discover the best styles, curated for elegance and comfort.
+            </p>
+          </div>
         </div>
       </div>
     </div>
