@@ -15,7 +15,7 @@ const slideContent = [
   {
     title: "Welcome To Cheerpeak Fashion Store",
     description:
-      "Step into summer with confidence and grace. Our latest collection features lightweight linens, breathable cottons."
+      "Step into summer with confidence and grace.  linens, breathable cottons."
   },
   {
     title: "Luxe Comfort, Everyday",
