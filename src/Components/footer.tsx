@@ -1,6 +1,5 @@
 import React from "react";
 import logo from "../Images/logo.png";
-
 import "../Components/footer.css";
 
 const Footer: React.FC = () => {
@@ -24,14 +23,13 @@ const Footer: React.FC = () => {
           <p>Location: Colombo, Sri Lanka</p>
         </div>
 
-        {/* Right: Newsletter & Social */}
+        {/* Right: Newsletter */}
         <div className="footer-section">
           <h4>Stay Updated</h4>
           <form className="newsletter-form">
             <input type="email" placeholder="Your email" required />
             <button type="submit">Subscribe</button>
           </form>
-          
         </div>
       </div>
 
