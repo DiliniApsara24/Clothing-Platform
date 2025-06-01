@@ -4,6 +4,7 @@
   color: #333;
   padding: 40px 5% 20px;
   border-top: 1px solid #ccc;
+  border: 1px solid red;
 }
 
 .footer-content {
