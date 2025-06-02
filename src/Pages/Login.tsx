@@ -1,6 +1,6 @@
 import React from "react";
 import "../common/login.css";
-import background from "../Images/p.jpg";
+import background from "../Images/product1.jpg";
 import logo from "../Images/logo.png";
 import TextField from "@mui/material/TextField";
 import icon1 from "../Images/icon1.png";
