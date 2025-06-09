@@ -1,132 +1,179 @@
-.footer-outer {
-  background: #f9f9f9;
-  color: #333;
-  padding: 40px 20px 20px;
-  border-top: 1px solid #ddd;
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.footer-content {
+.main-nav-outer {
+  width: 100%;
+  background-color: #fff;
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-between;
-  gap: 40px;
-  max-width: 1200px;
-  margin: 0 auto;
+  align-items: center;
+  padding: 10px 20px;
+  flex-wrap: wrap;
+  border-bottom: 1px solid #ddd;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
 }
 
-.footer-section {
-  flex: 1;
-  min-width: 250px;
+body.dark .main-nav-outer {
+  background-color: #222;
+  color: #fff;
+  border-bottom: 1px solid #555;
 }
 
-.footer-logo {
-  width: 150px;
-  margin-bottom: 10px;
-}
+/* Logo */
+.logo-1 {
+  height: 70px;
 
-.footer-desc {
-  font-size: 14px;
-  margin-top: 10px;
-  color: #555;
-}
-
-.footer-section h4 {
-  font-size: 18px;
-  margin-bottom: 10px;
-}
-
-.footer-section p {
-  font-size: 14px;
-  line-height: 1.6;
-}
-
-.newsletter-form {
-  display: flex;
-  gap: 10px;
-  margin-top: 10px;
-}
-
-.newsletter-form input {
-  padding: 8px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  flex: 1;
-}
-
-.newsletter-form button {
-  padding: 8px 14px;
-  background: #8b2f99;
-  border: none;
-  color: white;
-  border-radius: 5px;
   cursor: pointer;
 }
 
-.social-icons {
-  margin-top: 15px;
+.sub-outer-1, .sub-outer-2, .sub-outer-3 {
+  display: flex;
+  align-items: center;
+}
+
+
+.nav-2 .links {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.nav-2 .links a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+body.dark .nav-2 .links a {
+  color: #fff;
+}
+
+.nav-2 .links a:hover {
+  color: #570c83;
+}
+
+/* Dropdown */
+.shop {
+  position: relative;
+}
+
+.shop button {
+  background: none;
+  border: none;
+  font-weight: 500;
+  cursor: pointer;
+  color: #333;
+  font-size: 16px;
+}
+
+body.dark .shop button {
+  color: #fff;
+}
+
+.drop {
+  position: absolute;
+  top: 35px;
+  left: 0;
+  background-color: #f9f9f9;
+  padding: 10px;
+  border-radius: 4px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  z-index: 100;
+}
+
+body.dark .drop {
+  background-color: #333;
+}
+
+.drop a {
+  padding: 5px 10px;
+  color: #333;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+body.dark .drop a {
+  color: #fff;
+}
+
+.drop a:hover {
+  background-color: #eaeaea;
+}
+
+body.dark .drop a:hover {
+  background-color: #444;
+}
+
+/* Menu icon for mobile */
+.menu {
+  display: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+/* Right side login & cart */
+.links-1 {
   display: flex;
   gap: 15px;
+  align-items: center;
 }
 
-.social-icons a {
+.accounts-outer a,
+.cart-outer a {
+  text-decoration: none;
+  font-weight: 500;
   color: #333;
-  font-size: 20px;
-  transition: color 0.3s;
 }
 
-.social-icons a:hover {
-  color: #8b2f99;
+body.dark .accounts-outer a,
+body.dark .cart-outer a {
+  color: #fff;
 }
 
-.footer-bottom {
-  text-align: center;
-  margin-top: 30px;
-  font-size: 14px;
-  color: #777;
+.cart {
+  height: 24px;
 }
 
-body.dark .footer-outer {
-  background: #1a1a1a;
-  color: #eee;
-}
-
-body.dark .footer-section p,
-body.dark .footer-bottom {
-  color: #ccc;
-}
-
-body.dark .newsletter-form input {
-  background: #333;
-  color: white;
-  border: 1px solid #666;
-}
-
-body.dark .newsletter-form button {
-  background: #c266ff;
-}
-
-body.dark .social-icons a {
-  color: #ccc;
-}
-
-body.dark .social-icons a:hover {
-  color: #dda0dd;
-}
-
+/* Responsive */
 @media screen and (max-width: 768px) {
-  .footer-content {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
-
-  .newsletter-form {
+  .nav-2 .links,
+  .links-1 {
     flex-direction: column;
     width: 100%;
+    display: none;
+    background-color: #fff;
+    padding: 10px;
+    border-top: 1px solid #ddd;
   }
 
-  .newsletter-form input,
-  .newsletter-form button {
-    width: 100%;
+  body.dark .nav-2 .links,
+  body.dark .links-1 {
+    background-color: #222;
+    border-top: 1px solid #555;
+  }
+
+  .nav-2 .links.show,
+  .links-1.show {
+    display: flex;
+  }
+
+  .menu {
+    display: block;
+    margin-left: 15px;
+  }
+
+  .shop .drop {
+    position: static;
+    box-shadow: none;
+    padding: 5px 0;
   }
 }

@@ -45,6 +45,12 @@ const slideContent = [
       "Celebrate your unique style with our range of expressive pieces. "
   },
 
+   {
+    title: "Easy Expression",
+    description:
+      "Celebrate your unique style with our range of expressive pieces. "
+  },
+
  
  
  
