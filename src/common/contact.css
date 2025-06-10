@@ -27,13 +27,19 @@
 }
 
 .con-text{
-    width: 50%;
+    width: 90%;
     height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .con-pic{
- width: 50%;
+ width: 20%;
     height: 100%;
+    padding: 0 0% 0 2%;
+    border-radius: 0% 0% 0% 100%;
+    background-color: #ca95ee;
 }
 .info-outer{
     width: 70%;
@@ -119,4 +125,26 @@
 
 .con-btn:hover {
   background-color:#61217a;
+}
+
+.c-t{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    padding: 0 10% 0 13%;
+}
+
+
+.c-m-t{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 0 0 13%;
+}
+
+.con-pic{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
 }
