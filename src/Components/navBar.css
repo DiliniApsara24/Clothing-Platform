@@ -25,7 +25,7 @@ body.dark .main-nav-outer {
   border-bottom: 1px solid #555;
 }
 
-/* Logo */
+
 .logo-1 {
   height: 70px;
 
@@ -46,7 +46,7 @@ body.dark .main-nav-outer {
 
 .nav-2 .links a {
   text-decoration: none;
-  color: #333;
+  color: #000000;
   font-weight: 500;
   transition: color 0.2s ease;
 }
@@ -56,8 +56,10 @@ body.dark .nav-2 .links a {
 }
 
 .nav-2 .links a:hover {
-  color: #570c83;
+  color:#61217a;
 }
+
+
 
 /* Dropdown */
 .shop {
