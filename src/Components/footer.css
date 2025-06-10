@@ -2,8 +2,11 @@
   width: 100%;
   background: #61217a;
   color: #ffffff;
-  border: 1px solid red;
-  height: 8vh;
+  /* border: 1px solid red; */
+  height: 6vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 
