@@ -42,7 +42,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: rgb(250, 249, 250);
+  background-color: rgb(235, 204, 235);
 
 }
 
@@ -72,7 +72,11 @@
 .about-text {
   width: 40%;
   height: 40vh;
-  background-color:rgb(250, 249, 250) ;
+  background-color:rgb(250, 250, 250) ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5% 5% 5% 5%;
 }
 
 .vertical-text {
@@ -91,8 +95,18 @@
 .vision-text {
   width: 60%;
   height: 30vh;
+   background-color: rgb(172, 164, 180);
+   padding: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
+.about2-pic{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
 .p-t{
     display: flex;
     justify-content: center;
