@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 import about1 from "../Images/about-1.jpg"
 import about2 from "../Images/about-2.jpg"
 
-export default function Login() {
+export default function About() {
   return (
     <div>
       <div className="about-main-outer">
