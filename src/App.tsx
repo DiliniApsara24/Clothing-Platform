@@ -6,6 +6,7 @@ import Home from "./Pages/Home";
 import Footer from "./Components/footer";
 import About from "./Pages/about"
 import Contact from "./Pages/contact"
+import ShopMen from "./Pages/shopMen"
 
 const App: React.FC = () => {
   return (
@@ -17,6 +18,7 @@ const App: React.FC = () => {
       <Route path="/login" element={<Login />} />
    <Route path="/about" element={<About />} />
      <Route path="/contact" element={<Contact />} />
+      <Route path="/shop/men" element={<ShopMen/>} />
 
     </Routes>
  <Footer />
