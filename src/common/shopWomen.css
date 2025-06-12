@@ -1,3 +1,5 @@
+
+
 * {
   /* border: 1px solid red; */
   padding: 0;
@@ -5,13 +7,13 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.men-main {
+.women-main {
   width: 100%;
   height: 100vh;
    background-color: rgb(242, 241, 243);
 }
 
-.men-o-1 {
+.women-o-1 {
   width: 100%;
   height: 50vh;
   display: flex;
@@ -21,13 +23,13 @@
   background-color: rgb(213, 187, 238);
 }
 
-.men-o-2 {
+.women-o-2 {
   width: 100%;
   height: 10vh;
   padding: 2% 0 0 2%;
 }
 
-.men-o-3 {
+.women-o-3 {
   width: 100%;
   height: 40vh;
   display: flex;
@@ -36,7 +38,7 @@
   
 }
 
-.men-text {
+.women-text {
   width: 60%;
   height: 100%;
   padding: 0 0 14% 2%;
@@ -48,18 +50,18 @@
   
 }
 
-.men-pic {
+.women-pic {
   width: 40%;
   height: 100%;
   
 }
-.category-text {
+.category-text-w {
   width: 40%;
   height: 100%;
 }
 
 
-.catg-m-01{
+.catg-w-01{
   width: 90%;
   height: 70%;
   
@@ -72,7 +74,7 @@
   
 }
 
-.men-c-p{
+.women-c-p{
   width: 50%;
   height: 100%;
   padding: 0 1% 0 3%;
@@ -80,43 +82,43 @@
  
  
 }
-.shop-btn{
+.shop-btn-w{
   width: 50%;
   height: 100%;
  margin-left: 12%;
  
 }
 
-.m-t{
+.w-t{
   font-size: 20px;
 }
 
-.men-p{
+.women-p{
   width: 100%;
   height: 100%;
   object-fit: contain;
 }
 
-.men-tt-1{
+.women-tt-1{
  
   width: 90%;
   height: 30%;
   font-size: 45px;
 }
 
-.men-tt-2{
+.women-tt-2{
  
   color: rgb(97, 9, 109);
 }
 
-.catg-pic{
+.catg-pic-w{
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
 
 
-.item-n{
+.women-item-n{
 width: 100%;
 height: 70%;
 display: flex;
@@ -127,7 +129,7 @@ color: rgb(29, 4, 32);
 }
 
 
-.item-t{
+.women-item-t{
   width: 80%;
   height: 15%;
   display: flex;
@@ -137,7 +139,7 @@ color: rgb(29, 4, 32);
 }
 
 
-.men-btn{
+.women-btn{
    width: 100%;
   height: 100%;
   background-color:#522570;
@@ -148,6 +150,6 @@ color: rgb(29, 4, 32);
   transition: background-color 0.2s ease;
 }
 
-.men-btn:hover {
+.women-btn:hover {
   background-color:#6b2586;
 }
