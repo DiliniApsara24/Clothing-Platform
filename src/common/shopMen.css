@@ -33,7 +33,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 2%;
+  
 }
 
 .men-text {
@@ -60,8 +60,8 @@
 
 
 .catg-m-01{
-  width: 23%;
-  height: 90%;
+  width: 90%;
+  height: 70%;
   
   display: block;
   justify-content: center;
@@ -73,13 +73,17 @@
 }
 
 .men-c-p{
-  width: 100%;
+  width: 50%;
   height: 100%;
+  padding: 0 1% 0 3%;
+  
+ 
  
 }
 .shop-btn{
   width: 50%;
-  height: 40%;
+  height: 100%;
+ margin-left: 8%;
  
 }
 
@@ -109,4 +113,41 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+
+.item-n{
+width: 100%;
+height: 70%;
+display: flex;
+justify-content: center;
+align-items: center;
+font-weight: bold;
+color: rgb(29, 4, 32);
+}
+
+
+.item-t{
+  width: 80%;
+  height: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 5%;
+}
+
+
+.men-btn{
+   width: 100%;
+  height: 100%;
+  background-color:#522570;
+  color: white;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.men-btn:hover {
+  background-color:#6b2586;
 }
