@@ -5,10 +5,10 @@ import TextField from "@mui/material/TextField";
 
 import { Link } from "react-router-dom";
 import womenpic from "../Images/womenpic.png";
-import cat1 from "../Images/cate1.png";
-import cat2 from "../Images/cate2.png";
-import cat3 from "../Images/cate3.png";
-import cat4 from "../Images/cate4.png";
+import cat1w from "../Images/cate1w.png";
+import cat2w from "../Images/cate2w.png";
+import cat3w from "../Images/cate3w.png";
+import cat4w from "../Images/cate4w.png";
 
 export default function shopWomen() {
   return (
@@ -37,10 +37,10 @@ export default function shopWomen() {
         <div className="women-o-3">
           <div className="women-c-p">
             <div className="women-item-t">
-              <div className="women-item-n">T-Shirts & Polos</div>
+              <div className="women-item-n">Tops</div>
             </div>
             <div className="catg-w-01">
-              <img src={cat1} className="catg-pic-w" alt="cate" />
+              <img src={cat1w} className="catg-pic-w" alt="cate" />
               <div className="women-item-t">
                 <div className="shop-btn-w">
                      <button className="women-btn" type="submit">
@@ -53,10 +53,10 @@ export default function shopWomen() {
 
           <div className="women-c-p">
             <div className="women-item-t">
-              <div className="women-item-n">Shirts</div>
+              <div className="women-item-n">Trousers & Pants</div>
             </div>
             <div className="catg-w-01">
-              <img src={cat2} className="catg-pic-w" alt="cate" />
+              <img src={cat2w} className="catg-pic-w" alt="cate" />
               <div className="women-item-t">
                 <div className="shop-btn-w">
                      <button className="women-btn" type="submit">
@@ -69,10 +69,10 @@ export default function shopWomen() {
 
           <div className="women-c-p">
             <div className="women-item-t">
-              <div className="women-item-n">Hoodies & Sweatshirts</div>
+              <div className="women-item-n">Dresses</div>
             </div>
             <div className="catg-w-01">
-              <img src={cat3} className="catg-pic-w" alt="cate" />
+              <img src={cat3w} className="catg-pic-w" alt="cate" />
               <div className="women-item-t">
                 <div className="shop-btn-w">
                      <button className="women-btn" type="submit">
@@ -85,10 +85,10 @@ export default function shopWomen() {
 
           <div className="women-c-p">
             <div className="women-item-t">
-              <div className="women-item-n">Pants & Trousers</div>
+              <div className="women-item-n">Ethnic Wear</div>
             </div>
             <div className="catg-w-01">
-              <img src={cat4} className="catg-pic-w" alt="cate" />
+              <img src={cat4w} className="catg-pic-w" alt="cate" />
               <div className="women-item-t">
                 <div className="shop-btn-w">
                   <button className="women-btn" type="submit">
