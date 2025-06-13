@@ -1,0 +1,159 @@
+
+
+* {
+  /* border: 1px solid red; */
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.women-main {
+  width: 100%;
+  height: 100vh;
+   background-color: rgb(242, 241, 243);
+}
+
+.women-o-1 {
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  background-color: rgb(224, 202, 245);
+}
+
+.women-o-2 {
+  width: 100%;
+  height: 10vh;
+  padding: 2% 0 0 2%;
+}
+
+.women-o-3 {
+  width: 100%;
+  height: 40vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.women-text {
+  width: 60%;
+  height: 100%;
+  padding: 0 0 14% 2%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  
+  
+}
+
+.women-pic {
+  width: 40%;
+  height: 100%;
+  
+}
+.category-text-w {
+  width: 40%;
+  height: 100%;
+}
+
+
+.catg-w-01{
+  width: 90%;
+  height: 70%;
+  
+  display: block;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  border: 1px solid rgb(205, 202, 206);
+  background-color: rgb(255, 255, 255);
+  
+}
+
+.women-c-p{
+  width: 50%;
+  height: 100%;
+  padding: 0 1% 0 3%;
+  
+ 
+ 
+}
+.shop-btn-w{
+  width: 50%;
+  height: 100%;
+ margin-left: 12%;
+ 
+}
+
+.w-t{
+  font-size: 20px;
+}
+
+.women-p{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.women-tt-1{
+ 
+  width: 90%;
+  height: 30%;
+  font-size: 45px;
+}
+
+.women-tt-2{
+ 
+  color: rgb(97, 9, 109);
+}
+
+.catg-pic-w{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+.women-item-n{
+width: 100%;
+height: 70%;
+display: flex;
+justify-content: center;
+align-items: center;
+font-weight: bold;
+color: rgb(29, 4, 32);
+}
+
+
+.women-item-t{
+  width: 80%;
+  height: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 5%;
+}
+
+
+.women-btn{
+   width: 100%;
+  height: 100%;
+  background-color:#522570;
+  color: white;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.women-btn:hover {
+  background-color:#6b2586;
+}
