@@ -1,98 +1,98 @@
 import React from "react";
-import "../common/shopWomen.css";
+import "../common/child.css";
 
 import TextField from "@mui/material/TextField";
 
 import { Link } from "react-router-dom";
-import womenpic from "../Images/womenpic.png";
-import cat1w from "../Images/cate1w.png";
-import cat2w from "../Images/cate2w.png";
-import cat3w from "../Images/cate3w.png";
-import cat4w from "../Images/cate4w.png";
+import womenpic from "../Images/child.png";
+import cat1c from "../Images/cate1c.png";
+import cat2c from "../Images/cate2c.png";
+import cat3c from "../Images/cate3c.png";
+import cat4c from "../Images/cate4c.png";
 
-export default function shopWomen() {
+export default function Children() {
   return (
     <div>
-      <div className="women-main">
-        <div className="women-o-1">
-          <div className="women-text">
-            <div className="women-tt-1">
+      <div className="child-main">
+        <div className="child-o-1">
+          <div className="child-text">
+            <div className="child-tt-1">
               <b>
-                Women’s Wear <br />
-                <p className="women-tt-2">
-                  Find your perfect fit from soft essentials to standout styles.
+                Children’s Wear  <br />
+                <p className="child-tt-2">
+                 Bright, soft, and durable styles they’ll love every day.
                 </p>
               </b>
             </div>
           </div>
-          <div className="women-pic">
-            <img src={womenpic} className="women-p" alt="womenpic" />
+          <div className="child-pic">
+            <img src={womenpic} className="child-p" alt="child" />
           </div>
         </div>
-        <div className="women-o-2">
-          <div className="women-category-text">
-            <strong className="w-t">Our Main Categories</strong>
+        <div className="child-o-2">
+          <div className="child-category-text">
+            <strong className="c-t">Our Main Categories</strong>
           </div>
         </div>
-        <div className="women-o-3">
-          <div className="women-c-p">
-            <div className="women-item-t">
-              <div className="women-item-n">Tops</div>
+        <div className="child-o-3">
+          <div className="child-c-p">
+            <div className="child-item-t">
+              <div className="child-item-n">Tops</div>
             </div>
-            <div className="catg-w-01">
-              <img src={cat1w} className="catg-pic-w" alt="cate" />
-              <div className="women-item-t">
-                <div className="shop-btn-w">
-                     <button className="women-btn" type="submit">
-                  Shop Now
+            <div className="catg-c-01">
+              <img src={cat1c} className="catg-pic-c" alt="cate" />
+              <div className="child-item-t">
+                <div className="shop-btn-c">
+                  <button className="child-btn" type="submit">
+                    Shop Now
                   </button>
                 </div>
               </div>
             </div>
           </div>
 
-          <div className="women-c-p">
-            <div className="women-item-t">
-              <div className="women-item-n">Trousers & Pants</div>
+          <div className="child-c-p">
+            <div className="child-item-t">
+              <div className="child-item-n">Trousers & Pants</div>
             </div>
-            <div className="catg-w-01">
-              <img src={cat2w} className="catg-pic-w" alt="cate" />
-              <div className="women-item-t">
-                <div className="shop-btn-w">
-                     <button className="women-btn" type="submit">
-                  Shop Now
+            <div className="catg-c-01">
+              <img src={cat2c} className="catg-pic-c" alt="cate" />
+              <div className="child-item-t">
+                <div className="shop-btn-c">
+                  <button className="child-btn" type="submit">
+                    Shop Now
                   </button>
                 </div>
               </div>
             </div>
           </div>
 
-          <div className="women-c-p">
-            <div className="women-item-t">
-              <div className="women-item-n">Dresses</div>
+          <div className="child-c-p">
+            <div className="child-item-t">
+              <div className="child-item-n">Dresses</div>
             </div>
-            <div className="catg-w-01">
-              <img src={cat3w} className="catg-pic-w" alt="cate" />
-              <div className="women-item-t">
-                <div className="shop-btn-w">
-                     <button className="women-btn" type="submit">
-                  Shop Now
+            <div className="catg-c-01">
+              <img src={cat3c} className="catg-pic-c" alt="cate" />
+              <div className="child-item-t">
+                <div className="shop-btn-c">
+                  <button className="child-btn" type="submit">
+                    Shop Now
                   </button>
                 </div>
               </div>
             </div>
           </div>
 
-          <div className="women-c-p">
-            <div className="women-item-t">
-              <div className="women-item-n">Ethnic Wear</div>
+          <div className="child-c-p">
+            <div className="child-item-t">
+              <div className="child-item-n">Ethnic Wear</div>
             </div>
-            <div className="catg-w-01">
-              <img src={cat4w} className="catg-pic-w" alt="cate" />
-              <div className="women-item-t">
-                <div className="shop-btn-w">
-                  <button className="women-btn" type="submit">
-                  Shop Now
+            <div className="catg-c-01">
+              <img src={cat4c} className="catg-pic-c" alt="cate" />
+              <div className="child-item-t">
+                <div className="shop-btn-c">
+                  <button className="child-btn" type="submit">
+                    Shop Now
                   </button>
                 </div>
               </div>

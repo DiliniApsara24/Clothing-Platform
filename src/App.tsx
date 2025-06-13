@@ -4,26 +4,27 @@ import Login from "./Pages/Login";
 import Navbar from "./Components/Navbar";
 import Home from "./Pages/Home";
 import Footer from "./Components/footer";
-import About from "./Pages/about"
-import Contact from "./Pages/contact"
-import ShopMen from "./Pages/shopMen"
-import ShopWomen from "./Pages/shopWomen"
+import About from "./Pages/about";
+import Contact from "./Pages/contact";
+import ShopMen from "./Pages/shopMen";
+import ShopWomen from "./Pages/shopWomen";
+import Children from "./Pages/child";
 
 const App: React.FC = () => {
   return (
     <>
-    <Navbar />
-    <Routes>
-      <Route path="/" element={<Home />} />
-       <Route path="/Home" element={<Home />} />
-      <Route path="/login" element={<Login />} />
-   <Route path="/about" element={<About />} />
-     <Route path="/contact" element={<Contact />} />
-      <Route path="/shop/men" element={<ShopMen/>} />
-      <Route path="/shop/women" element={<ShopWomen/>} />
-
-    </Routes>
- <Footer />
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/Home" element={<Home />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/shop/men" element={<ShopMen />} />
+        <Route path="/shop/women" element={<ShopWomen />} />
+        <Route path="/shop/children" element={<Children />} />
+      </Routes>
+      <Footer />
     </>
   );
 };
