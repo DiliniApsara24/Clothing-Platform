@@ -31,13 +31,13 @@ export default function Children() {
         </div>
         <div className="child-o-2">
           <div className="child-category-text">
-            <strong className="c-t">Our Main Categories</strong>
+            <strong className="c-t">Our Main Categories For Children</strong>
           </div>
         </div>
         <div className="child-o-3">
           <div className="child-c-p">
             <div className="child-item-t">
-              <div className="child-item-n">Tops</div>
+              <div className="child-item-n">T-Shirts & Shirts</div>
             </div>
             <div className="catg-c-01">
               <img src={cat1c} className="catg-pic-c" alt="cate" />
@@ -53,7 +53,7 @@ export default function Children() {
 
           <div className="child-c-p">
             <div className="child-item-t">
-              <div className="child-item-n">Trousers & Pants</div>
+              <div className="child-item-n">Shorts & joggers,</div>
             </div>
             <div className="catg-c-01">
               <img src={cat2c} className="catg-pic-c" alt="cate" />
@@ -69,7 +69,7 @@ export default function Children() {
 
           <div className="child-c-p">
             <div className="child-item-t">
-              <div className="child-item-n">Dresses</div>
+              <div className="child-item-n">Casual and party dresses</div>
             </div>
             <div className="catg-c-01">
               <img src={cat3c} className="catg-pic-c" alt="cate" />
@@ -85,7 +85,7 @@ export default function Children() {
 
           <div className="child-c-p">
             <div className="child-item-t">
-              <div className="child-item-n">Ethnic Wear</div>
+              <div className="child-item-n">Nightwear</div>
             </div>
             <div className="catg-c-01">
               <img src={cat4c} className="catg-pic-c" alt="cate" />
