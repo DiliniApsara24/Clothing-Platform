@@ -22,7 +22,7 @@ export default function Contact() {
           
           
           <p>
-              <strong className="c-t">Contact Us About Cheerpeak Fashions </strong><br />
+              <strong className="c-t-c">Contact Us About Cheerpeak Fashions </strong><br />
               <span className="c-m-t">We’d love to help you with anything,whether it’s about your order, our latest styles, sizing help, or anything fashion-related. </span>
             </p>
           

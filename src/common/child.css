@@ -26,7 +26,7 @@
 .child-o-2 {
   width: 100%;
   height: 10vh;
-  padding: 2% 0 0 2%;
+  padding: 1% 0 0 2%;
 }
 
 .child-o-3 {
@@ -91,6 +91,7 @@
 
 .c-t{
   font-size: 20px;
+  color: rgb(97, 9, 109);
 }
 
 .child-p{
