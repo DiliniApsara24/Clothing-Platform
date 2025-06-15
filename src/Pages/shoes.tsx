@@ -1,0 +1,105 @@
+import React from "react";
+import "../common/shoes.css";
+
+import TextField from "@mui/material/TextField";
+
+import { Link } from "react-router-dom";
+import womenpic from "../Images/shoes.png";
+import cat1w from "../Images/cate1s.png";
+import cat2w from "../Images/cate2s.png";
+import cat3w from "../Images/cate3s.png";
+import cat4w from "../Images/cate4s.png";
+
+export default function Shoes() {
+  return (
+    <div>
+      <div className="shoes-main">
+        <div className="shoes-o-1">
+          <div className="shoes-text">
+            <div className="shoes-tt-1">
+              <b>
+                Women’s Wear <br />
+                <p className="shoes-tt-2">
+                  Find your perfect fit from soft essentials to standout styles.
+                </p>
+              </b>
+            </div>
+          </div>
+          <div className="shoes-pic">
+            <img src={womenpic} className="shoes-p" alt="shoes" />
+          </div>
+        </div>
+        <div className="shoes-o-2">
+          <div className="shoes-category-text">
+            <strong className="s-t">Our Main Categories</strong>
+          </div>
+        </div>
+        <div className="shoes-o-3">
+          <div className="shoes-c-p">
+            <div className="shoes-item-t">
+              <div className="shoes-item-n">Tops</div>
+            </div>
+            <div className="catg-s-01">
+              <img src={cat1w} className="catg-pic-s" alt="cate" />
+              <div className="shoes-item-t">
+                <div className="shoes-btn-s">
+                     <button className="shoes-btn" type="submit">
+                  Shop Now
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="shoes-c-p">
+            <div className="shoes-item-t">
+              <div className="shoes-item-n">Trousers & Pants</div>
+            </div>
+            <div className="catg-s-01">
+              <img src={cat2w} className="catg-pic-s" alt="cate" />
+              <div className="shoes-item-t">
+                <div className="shop-btn-s">
+                     <button className="shoes-btn" type="submit">
+                  Shop Now
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="shoes-c-p">
+            <div className="shoes-item-t">
+              <div className="shoes-item-n">Dresses</div>
+            </div>
+            <div className="catg-s-01">
+              <img src={cat3w} className="catg-pic-s" alt="cate" />
+              <div className="shoes-item-t">
+                <div className="shop-btn-s">
+                     <button className="shoes-btn" type="submit">
+                  Shop Now
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="shoes-c-p">
+            <div className="shoes-item-t">
+              <div className="shoes-item-n">Ethnic Wear</div>
+            </div>
+            <div className="catg-s-01">
+              <img src={cat4w} className="catg-pic-s" alt="cate" />
+              <div className="shoes-item-t">
+                <div className="shop-btn-s">
+                  <button className="shoes-btn" type="submit">
+                  Shop Now
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
