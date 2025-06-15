@@ -4,7 +4,7 @@ import "../common/shoes.css";
 import TextField from "@mui/material/TextField";
 
 import { Link } from "react-router-dom";
-import womenpic from "../Images/shoes.png";
+import shoes from "../Images/shoes.png";
 import cat1w from "../Images/cate1s.png";
 import cat2w from "../Images/cate2s.png";
 import cat3w from "../Images/cate3s.png";
@@ -18,18 +18,18 @@ export default function Shoes() {
           <div className="shoes-text">
             <div className="shoes-tt-1">
               <b>
-               Step into comfort and style - shoes made for every move.
+               Shoes made  for comfort and style every move
 
 
  <br />
                 <p className="shoes-tt-2">
-                 From casual kicks to standout pairs, find your perfect sole match.
+                 From casual kicks to standout pairs.
                 </p>
               </b>
             </div>
           </div>
           <div className="shoes-pic">
-            <img src={womenpic} className="shoes-p" alt="shoes" />
+            <img src={shoes} className="shoes-p" alt="shoes" />
           </div>
         </div>
         <div className="shoes-o-2">
@@ -45,7 +45,7 @@ export default function Shoes() {
             <div className="catg-s-01">
               <img src={cat1w} className="catg-pic-s" alt="cate" />
               <div className="shoes-item-t">
-                <div className="shoes-btn-s">
+                <div className="shop-btn-s">
                      <button className="shoes-btn" type="submit">
                   Shop Now
                   </button>
