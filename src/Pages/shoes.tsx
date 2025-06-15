@@ -18,9 +18,12 @@ export default function Shoes() {
           <div className="shoes-text">
             <div className="shoes-tt-1">
               <b>
-                Women’s Wear <br />
+               Step into comfort and style - shoes made for every move.
+
+
+ <br />
                 <p className="shoes-tt-2">
-                  Find your perfect fit from soft essentials to standout styles.
+                 From casual kicks to standout pairs, find your perfect sole match.
                 </p>
               </b>
             </div>
@@ -37,7 +40,7 @@ export default function Shoes() {
         <div className="shoes-o-3">
           <div className="shoes-c-p">
             <div className="shoes-item-t">
-              <div className="shoes-item-n">Tops</div>
+              <div className="shoes-item-n">Casual Shoes</div>
             </div>
             <div className="catg-s-01">
               <img src={cat1w} className="catg-pic-s" alt="cate" />
@@ -53,7 +56,7 @@ export default function Shoes() {
 
           <div className="shoes-c-p">
             <div className="shoes-item-t">
-              <div className="shoes-item-n">Trousers & Pants</div>
+              <div className="shoes-item-n">Formal Shoes</div>
             </div>
             <div className="catg-s-01">
               <img src={cat2w} className="catg-pic-s" alt="cate" />
@@ -69,7 +72,7 @@ export default function Shoes() {
 
           <div className="shoes-c-p">
             <div className="shoes-item-t">
-              <div className="shoes-item-n">Dresses</div>
+              <div className="shoes-item-n">Sandals & Slippers</div>
             </div>
             <div className="catg-s-01">
               <img src={cat3w} className="catg-pic-s" alt="cate" />
@@ -85,7 +88,7 @@ export default function Shoes() {
 
           <div className="shoes-c-p">
             <div className="shoes-item-t">
-              <div className="shoes-item-n">Ethnic Wear</div>
+              <div className="shoes-item-n">Boots</div>
             </div>
             <div className="catg-s-01">
               <img src={cat4w} className="catg-pic-s" alt="cate" />
