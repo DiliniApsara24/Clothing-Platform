@@ -1,0 +1,319 @@
+* {
+  /* border: 1px solid red; */
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-outer {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(242, 241, 243);
+}
+
+.main-sub {
+  width: 80%;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px 10px 10px 10px;
+  background-color: white;
+  z-index: 1;
+}
+.first-outer {
+  width: 40%;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0px 0px 0 0px;
+}
+
+.sub-1 {
+  width: 100%;
+  height: 17%;
+  padding: 0 0 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sub-2 {
+  width: 100%;
+  height: 13%;
+  padding: 1% 0 0 0;
+  
+}
+
+.sub-3 {
+  width: 100%;
+  height: 13%;
+  padding: 4% 0 0 0;
+}
+.sub-4 {
+  width: 100%;
+  height: 5%;
+  padding: 10% 0 0 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+.sub-5 {
+  width: 100%;
+  height: 7%;
+  padding: 10% 0 0 0;
+}
+.sub-6 {
+  width: 100%;
+  height: 5%;
+  padding: 20% 0 0 0;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  color: #000000;
+}
+.sub-7 {
+  width: 100%;
+  height: 10%;
+  padding: 10% 0 0 0;
+}
+.sub-8 {
+  width: 100%;
+  height: 5%;
+  padding: 20% 0 10px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  width: 40%;
+  height: 100%;
+}
+
+.logo-1 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.background-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 0px 10px 10px 0px;
+}
+
+.second-outer {
+  width: 67%;
+  height: 80vh;
+
+  border-radius: 10px 0 10px 0;
+}
+
+.text-feilds {
+  width: 80%;
+  height: 70vh;
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-L1 {
+  width: 100%;
+  font-size: 12px;
+}
+
+.text-L2 {
+  width: 100%;
+  font-size: 12px;
+}
+
+.text-a .MuiOutlinedInput-root {
+  background-color: #ffffff;
+  border-radius: 4px;
+  box-shadow: none;
+  font-size: 110%;
+  margin: 2% 2% 0 0;
+}
+
+.text-a .MuiOutlinedInput-notchedOutline {
+  border-color: rgb(221, 218, 218);
+}
+
+.text-a .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline,
+.text-a .MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline {
+  border-color: rgb(221, 218, 218);
+  border-width: 1px;
+}
+
+.text-b .MuiOutlinedInput-root {
+  background-color: #ffffff;
+  border-radius: 4px;
+  box-shadow: none;
+  font-size: 110%;
+  margin: 2% 2% 0 0;
+}
+
+.text-b .MuiOutlinedInput-notchedOutline {
+  border-color: rgb(221, 218, 218);
+}
+
+.text-b .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline,
+.text-b .MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline {
+  border-color: rgb(221, 218, 218);
+  border-width: 1px;
+}
+
+.text-L3 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 15px;
+  gap: 50px;
+}
+
+.checkbox {
+  width: 80%;
+}
+
+.forget-outer {
+  width: 70%;
+}
+
+.keepme-label {
+  display: flex;
+  align-items: center;
+  font-size: 13px;
+  color: #070707;
+  font-family: "Montserrat", sans-serif;
+  gap: 6px;
+}
+
+.keepme-checkbox {
+  width: 10%;
+  height: 3vh;
+  accent-color: #ab48c9; /* Teal style checkbox like image */
+  cursor: pointer;
+ 
+}
+
+.forgot-link {
+  font-size: 13px;
+  text-decoration: none;
+  color: #61217a;
+  float: right;
+  font-family: "Montserrat", sans-serif;
+  transition: color 0.2s ease-in-out;
+ 
+}
+
+.forgot-link:hover {
+  color: #9a42d4;
+}
+
+
+
+.button-outer {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+
+.login-button {
+  width: 100%;
+  height: 4vh;
+  background-color:#9a42d4;
+  color: white;
+  font-size: 90%;
+  font-weight: 600;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: "poppins", sans-serif;
+  transition: background-color 0.2s ease;
+ 
+
+}
+
+.login-button:hover {
+  background-color:#61217a;
+}
+
+.icon {
+  width: 100%;
+  display: flex;
+  justify-content: center; /* center horizontally */
+  align-items: center;
+}
+
+
+.box {
+  width:15%;       /* bigger circles to fit logos nicely */
+  height: 95%;
+ 
+  border-radius: 5%;
+  display: flex;      /* center image inside */
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  overflow: hidden; 
+}
+
+.box img {
+  max-width: 60%;     /* scale logo inside circle */
+  max-height: 60%;
+  object-fit: contain;
+  display: block;
+}
+
+.text-L5 {
+  width: 80%;
+  justify-content: center;
+  align-items: center;
+  color: #070707;
+  font-family: 40%;
+  display: flex;
+  gap: 4px;
+}
+
+.signup-text {
+  font-size: 13px;
+  color: #000000;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-style: bold;
+  font-weight: 600;
+ 
+  
+  
+}
+
+.signup-link {
+ color:#61217a;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 13px;
+  
+
+  
+}
+
+.signup-link:hover {
+   color:#9a42d4;
+}
+
+
+.t-1{
+    justify-content: center;
+    display: flex;
+}
