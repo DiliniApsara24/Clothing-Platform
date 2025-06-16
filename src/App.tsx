@@ -10,7 +10,8 @@ import ShopMen from "./Pages/shopMen";
 import ShopWomen from "./Pages/shopWomen";
 import Children from "./Pages/child";
 import Accessories from "./Pages/accessories";
-import Shoes from "./Pages/shoes"
+import Shoes from "./Pages/shoes";
+import Bag  from "./Pages/bag";
 
 const App: React.FC = () => {
   return (
@@ -27,6 +28,7 @@ const App: React.FC = () => {
         <Route path="/shop/children" element={<Children />} />
         <Route path="/shop/accessories" element={<Accessories />} />
         <Route path="/shop/shoes" element={<Shoes />} />
+        <Route path="/shop/bags" element={<Bag />} />
       </Routes>
       <Footer />
     </>

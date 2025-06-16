@@ -10,7 +10,7 @@ import cat2w from "../Images/cate2b.png";
 import cat3w from "../Images/cate3b.png";
 import cat4w from "../Images/cate4b.png";
 
-export default function Shoes() {
+export default function Bags() {
   return (
     <div>
       <div className="bag-main">
@@ -18,12 +18,12 @@ export default function Shoes() {
           <div className="bag-text">
             <div className="bag-tt-1">
               <b>
-               Shoes made  for comfort and style every move
+              Carry your style with ease 
 
 
  <br />
                 <p className="bag-tt-2">
-                 From casual kicks to standout pairs.
+                 Find the perfect bag for every moment.
                 </p>
               </b>
             </div>
@@ -40,7 +40,7 @@ export default function Shoes() {
         <div className="bag-o-3">
           <div className="bag-c-p">
             <div className="bag-item-t">
-              <div className="bag-item-n">Casual Shoes</div>
+              <div className="bag-item-n">Tote Bags</div>
             </div>
             <div className="catg-b-01">
               <img src={cat1w} className="catg-pic-b" alt="cate" />
@@ -56,7 +56,7 @@ export default function Shoes() {
 
           <div className="bag-c-p">
             <div className="bag-item-t">
-              <div className="bag-item-n">Formal Shoes</div>
+              <div className="bag-item-n">Backpacks</div>
             </div>
             <div className="catg-b-01">
               <img src={cat2w} className="catg-pic-b" alt="cate" />
@@ -72,7 +72,7 @@ export default function Shoes() {
 
           <div className="bag-c-p">
             <div className="bag-item-t">
-              <div className="bag-item-n">Sandals & Slippers</div>
+              <div className="bag-item-n">Crossbody Bags</div>
             </div>
             <div className="catg-b-01">
               <img src={cat3w} className="catg-pic-b" alt="cate" />
@@ -88,7 +88,7 @@ export default function Shoes() {
 
           <div className="bag-c-p">
             <div className="bag-item-t">
-              <div className="bag-item-n">Boots</div>
+              <div className="bag-item-n">Handbags & Shoulder Bags</div>
             </div>
             <div className="catg-b-01">
               <img src={cat4w} className="catg-pic-b" alt="cate" />
