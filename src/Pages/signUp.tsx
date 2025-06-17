@@ -14,7 +14,9 @@ export default function Signup() {
       <div className="sign-main-outer">
         <div className="main-sub-sign">
           <div className="first-outer-sign"></div>
-          <div className="second-outer-sign"></div>
+          <div className="second-outer-sign">
+            <img src="" alt="" />
+          </div>
         </div>
       </div>
     </div>
