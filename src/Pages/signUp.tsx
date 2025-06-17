@@ -13,13 +13,8 @@ export default function Signup() {
     <div>
       <div className="sign-main-outer">
         <div className="main-sub-sign">
-          <div className="first-outer-sign">
-            
-
-              </div>
-          <div className="second-outer-sign">
-         
-          </div>
+          <div className="first-outer-sign"></div>
+          <div className="second-outer-sign"></div>
         </div>
       </div>
     </div>
