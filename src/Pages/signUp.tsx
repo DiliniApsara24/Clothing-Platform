@@ -7,6 +7,7 @@ import icon1 from "../Images/icon1.png";
 import icon2 from "../Images/icon2.png";
 import icon3 from "../Images/icon3.png";
 import { Link } from "react-router-dom";
+import logosign from "../Images/logo.png"
 
 export default function Signup() {
   return (
@@ -18,7 +19,12 @@ export default function Signup() {
           </div>
           <div className="second-outer-sign">
             <div className="sec-sign">
-              <div className="sign-logo"></div>
+              <div className="sign-logo-p">
+                             <div className="sign-logo">
+
+                 <img src={logosign} className="logo-sign-1" alt="logo" />
+              </div>
+              </div> 
               <div className="sign-text-P">
               <div className="sign-text-1"></div>
               <div className="sign-text-1"></div>

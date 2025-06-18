@@ -50,28 +50,39 @@
   border-radius: 10px 0px 0px 10px;
 }
 
-.sec-sign{
+.sec-sign {
   width: 100%;
   height: 100%;
   display: block;
   justify-content: space-between;
   align-items: center;
 }
-.sign-text-P{
+.sign-text-P {
   width: 100%;
   height: 80%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.sign-text-1{
+.sign-text-1 {
   width: 50%;
   height: 100%;
 }
 
-.sign-logo{
+.sign-logo-p {
   width: 100%;
   height: 20%;
 }
+.sign-logo {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-
+.logo-sign-1 {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
