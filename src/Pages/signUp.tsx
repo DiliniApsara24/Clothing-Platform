@@ -16,7 +16,15 @@ export default function Signup() {
           <div className="first-outer-sign">
              <img src={background} className="background-img-sign" alt="background" />
           </div>
-          <div className="second-outer-sign"></div>
+          <div className="second-outer-sign">
+            <div className="sec-sign">
+              <div className="sign-logo"></div>
+              <div className="sign-text-P">
+              <div className="sign-text-1"></div>
+              <div className="sign-text-1"></div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
