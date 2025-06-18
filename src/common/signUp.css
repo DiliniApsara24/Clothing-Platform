@@ -34,7 +34,7 @@
 }
 
 .second-outer-sign {
-  width: 40%;
+  width: 60%;
   height: 80vh;
   display: flex;
   justify-content: center;
@@ -42,7 +42,12 @@
   border-radius: 0px 0px 0 0px;
 }
 
-
+.background-img-sign {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px 0px 0px 10px;
+}
 
 
 

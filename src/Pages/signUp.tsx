@@ -1,6 +1,6 @@
 import React from "react";
-import "../common/login.css";
-import background from "../Images/product1.jpg";
+import "../common/signUp.css";
+import background from "../Images/back-sign.jpg";
 import logo from "../Images/logo.png";
 import TextField from "@mui/material/TextField";
 import icon1 from "../Images/icon1.png";
@@ -13,10 +13,14 @@ export default function Signup() {
     <div>
       <div className="sign-main-outer">
         <div className="main-sub-sign">
-          <div className="first-outer-sign"></div>
+          <div className="first-outer-sign">
+             <img src={background} className="background-img-sign" alt="background" />
+          </div>
           <div className="second-outer-sign"></div>
         </div>
       </div>
     </div>
   );
 }
+
+
