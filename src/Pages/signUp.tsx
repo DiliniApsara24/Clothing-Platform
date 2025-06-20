@@ -1,6 +1,6 @@
 import React from "react";
 import "../common/signUp.css";
-import background from "../Images/back-sign.jpg";
+import background from "../Images/back-sign.png";
 import logo from "../Images/logo.png";
 import TextField from "@mui/material/TextField";
 import icon1 from "../Images/icon1.png";
