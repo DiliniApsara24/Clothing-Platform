@@ -1,5 +1,5 @@
 * {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   padding: 0;
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
@@ -103,6 +103,10 @@
 .sign-sub {
   width: 100%;
   height: 33.33%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2%;
 }
 
 .button-outer-sign {
@@ -129,4 +133,30 @@
 
 .sign-button:hover {
   background-color: #61217a;
+}
+
+
+.text-s {
+  width: 100%;
+  font-size: 12px;
+}
+
+.text-a-s .MuiOutlinedInput-root {
+  background-color: #ffffff;
+  border-radius: 4px;
+  box-shadow: none;
+  font-size: 110%;
+  margin: 2% 2% 0 0;
+ 
+}
+
+.text-a-s .MuiOutlinedInput-notchedOutline {
+    border-color: rgb(180, 180, 180);
+}
+
+.text-a-s .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline,
+.text-a-s .MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline {
+
+  border-width: 1px;
+   border-color: rgb(199, 146, 219);
 }

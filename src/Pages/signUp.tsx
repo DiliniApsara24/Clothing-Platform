@@ -30,26 +30,93 @@ export default function Signup() {
               </div>
               <div className="sign-text-P">
                 <div className="sign-text-1">
-                  <div className="sign-sub"></div>
-                  <div className="sign-sub"></div>
-                  <div className="sign-sub"></div>
+                  <div className="sign-sub">
+                    <div className="text-s">
+                      <strong>First Name</strong>
+                      <TextField
+                        className="text-a-s"
+                        placeholder="Enter Your First Name"
+                        fullWidth
+                        variant="outlined"
+                        size="small"
+                      />
+                    </div>
+                  </div>
+                  <div className="sign-sub">
+                    <div className="text-s">
+                      <strong>Last Name</strong>
+                      <TextField
+                        className="text-a-s"
+                        placeholder="Enter Your Last Name"
+                        fullWidth
+                        variant="outlined"
+                        size="small"
+                      />
+                    </div>
+                  </div>
+                  <div className="sign-sub">
+                    <div className="text-s">
+                    <strong>Email</strong>
+                      <TextField
+                        className="text-a-s"
+                        placeholder="Enter Your Email Address"
+                        fullWidth
+                        variant="outlined"
+                        size="small"
+                      />
+     
+                    </div>
+                  </div>
                 </div>
                 <div className="sign-text-1">
-                  <div className="sign-sub"></div>
-                  <div className="sign-sub"></div>
-                  <div className="sign-sub"></div>
+                  <div className="sign-sub">
+                    <div className="text-s">
+                      <strong>Username</strong>
+                      <TextField
+                        className="text-a-s"
+                        placeholder="Enter Your Username "
+                        fullWidth
+                        variant="outlined"
+                        size="small"
+                      />
+                    </div>
+                  </div>
+                  <div className="sign-sub">
+                    <div className="text-s">
+                      <strong>Passowrd</strong>
+                      <TextField
+                        className="text-a-s"
+                        type="password"
+                        placeholder="Enter Your Passowrd"
+                        fullWidth
+                        variant="outlined"
+                        size="small"
+                      />
+                    </div>
+                  </div>
+                  <div className="sign-sub">
+                    <div className="text-s">
+                      <strong>Confirm Passowrd</strong>
+                      <TextField
+                        className="text-a-s"
+                        type="password"
+                        placeholder="Re-enter Passowrd"
+                        fullWidth
+                        variant="outlined"
+                        size="small"
+                      />
+                    </div>
+                  </div>
                 </div>
               </div>
-               <div className="sign-text-button">
-
+              <div className="sign-text-button">
                 <div className="button-outer-sign">
                   <button className="sign-button" type="submit">
                     Sign Up
                   </button>
                 </div>
-               </div>
+              </div>
             </div>
-           
           </div>
         </div>
       </div>
