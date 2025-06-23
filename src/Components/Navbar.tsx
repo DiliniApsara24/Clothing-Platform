@@ -56,6 +56,7 @@ const Navbar = () => {
           <nav className="accounts-outer">
             <Link to="/login">Log In</Link>
           </nav>
+          
           <nav className="cart-outer">
             <Link to="/cart">
               <img src={cart} alt="Cart" className="cart" />
