@@ -6,18 +6,14 @@ import "../common/cart.css";
 
 export default function Cart() {
   return (
-    <div className="main-home-outer">
+    <div className="main-cart-outer">
      
 
-      <div className="home">
-        
+      <div className="cart-m">
+        <div className="cart-main"></div>
 
-        <div className="home-text">
-          <div className="sub-text-home">
-         
+       
           </div>
-        </div>
-      </div>
     </div>
   );
 
