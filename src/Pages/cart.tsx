@@ -110,7 +110,7 @@ const Cart: React.FC = () => {
           </div>
 
           <div className="code-section">
-            <label htmlFor="code">Give Code</label>
+            <label htmlFor="code" >Give Code</label>
             <div className="code-input">
               <input
                 type="text"
@@ -124,11 +124,11 @@ const Cart: React.FC = () => {
           </div>
 
           <div className="summary-total">
-            <span>TOTAL PRICE</span>
+            <span>Total Price</span>
             <span>$ {total.toFixed(2)}</span>
           </div>
 
-          <button className="checkout-btn">CHECKOUT</button>
+          <button className="checkout-btn">Checkout</button>
         </div>
       </div>
     </div>
