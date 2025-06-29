@@ -12,8 +12,8 @@ export default function Cart() {
       <div className="cart-m">
         <div className="cart-main"></div>
 
-       .
-      <div className="hsggs"></div>
+       
+      <div className=""></div>
     
           </div>
     </div>
