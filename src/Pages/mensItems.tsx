@@ -1,5 +1,5 @@
 import React from "react";
-import "../common/shopMen.css";
+import "../common/mensItem.css";
 
 import TextField from "@mui/material/TextField";
 
@@ -10,14 +10,14 @@ import cat2 from "../Images/cate2.png";
 import cat3 from "../Images/cate3.png";
 import cat4 from "../Images/cate4.png";
 
-export default function shopMen() {
+export default function MensItem() {
   return (
     <div>
-      <div className="men-main">
-        <div className="ddd"></div>
-       </div>
+      <div className="men-i-main">
+        <div className="men-i"></div>
+        <div className="men-i"></div>
+        <div className="men-i"></div>
+      </div>
     </div>
   );
-
-
 }

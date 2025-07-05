@@ -1,13 +1,20 @@
 * {
-  /* border: 1px solid red; */
+  border: 1px solid red;
   padding: 0;
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.men-main {
+.men-i-main {
   width: 100%;
   height: 100vh;
    background-color: rgb(242, 241, 243);
+   display: block;
+   justify-content: center;
+   align-items: center;
 }
 
+.men-i{
+  width: 100%;
+  height: 33.33%;
+}
