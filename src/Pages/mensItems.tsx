@@ -14,9 +14,108 @@ export default function MensItem() {
   return (
     <div>
       <div className="men-i-main">
-        <div className="men-i"></div>
-        <div className="men-i"></div>
-        <div className="men-i"></div>
+        <div className="men-i">
+          <div className="sub-men">
+            <div className="m-i-image"></div>
+            <div className="add">
+              <button className="m-i-btn" type="submit">
+                 Add To Cart
+                  </button>
+            </div>
+          </div>
+          <div className="sub-men">
+            <div className="m-i-image"></div>
+            <div className="add">
+              <button className="m-i-btn" type="submit">
+                 Add To Cart
+                  </button>
+            </div>
+          </div>
+          <div className="sub-men">
+            <div className="m-i-image"></div>
+            <div className="add">
+              <button className="m-i-btn" type="submit">
+                 Add To Cart
+                  </button>
+            </div>
+          </div>
+          <div className="sub-men">
+            <div className="m-i-image"></div>
+            <div className="add">
+              <button className="m-i-btn" type="submit">
+                 Add To Cart
+                  </button>
+            </div>
+          </div>
+        </div>
+        <div className="men-i">
+          <div className="sub-men">
+            <div className="m-i-image"></div>
+            <div className="add">
+               <button className="m-i-btn" type="submit">
+                 Add To Cart
+                  </button>
+            </div>
+          </div>
+          <div className="sub-men">
+            <div className="m-i-image"></div>
+            <div className="add">
+              <button className="m-i-btn" type="submit">
+                 Add To Cart
+                  </button>
+            </div>
+          </div>
+          <div className="sub-men">
+            <div className="m-i-image"></div>
+            <div className="add">
+              <button className="m-i-btn" type="submit">
+                 Add To Cart
+                  </button>
+            </div>
+          </div>
+          <div className="sub-men">
+            <div className="m-i-image"></div>
+            <div className="add">
+              <button className="m-i-btn" type="submit">
+                 Add To Cart
+                  </button>
+            </div>
+          </div>
+        </div>
+        <div className="men-i">
+          <div className="sub-men">
+            <div className="m-i-image"></div>
+            <div className="add">
+              <button className="m-i-btn" type="submit">
+                 Add To Cart
+                  </button>
+            </div>
+          </div>
+          <div className="sub-men">
+            <div className="m-i-image"></div>
+            <div className="add">
+              <button className="m-i-btn" type="submit">
+                 Add To Cart
+                  </button>
+            </div>
+          </div>
+          <div className="sub-men">
+            <div className="m-i-image"></div>
+            <div className="add">
+              <button className="m-i-btn" type="submit">
+                 Add To Cart
+                  </button>
+            </div>
+          </div>
+          <div className="sub-men">
+            <div className="m-i-image"></div>
+            <div className="add">
+              <button className="m-i-btn" type="submit">
+                 Add To Cart
+                  </button>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
