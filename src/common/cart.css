@@ -134,7 +134,7 @@
 .code-section label {
   display: block;
   margin-bottom: 3px; /* ✅ Space between label and input */
-  font-weight: none;
+  font-size: none;
 }
 
 .code-input {
