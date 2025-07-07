@@ -117,17 +117,24 @@
 .shipping-section select {
   width: 100%;
   padding: 8px;
-  border: 1px solid purple;
+    border: 1px solid #ccc;
   background-color: white;
-  color: rgb(0, 0, 0);
+  color: rgb(121, 121, 121);
   border-radius: 4px;
   cursor: pointer;
+   outline: none;   
+   margin-bottom: 8px;   
+  
+}
+
+.shoping-sec{
+  margin-top: 5px;
 }
 
 .code-section label {
   display: block;
-  margin-bottom: 8px; /* ✅ Space between label and input */
-  font-weight: bold;
+  margin-bottom: 3px; /* ✅ Space between label and input */
+  font-weight: none;
 }
 
 .code-input {
@@ -136,7 +143,7 @@
 }
 
 .ct {
-  margin-bottom: 5px;
+  margin-bottom: 0px;
 }
 
 .code-input input {
@@ -166,63 +173,3 @@
   border-radius: 4px;
 }
 
-@media (max-width: 768px) {
-  .cart-container {
-    flex-direction: column;
-    max-width: 100%;
-    margin: 10px;
-  }
-
-  .cart-left, .cart-right {
-    width: 100%;
-    padding: 20px;
-  }
-
-  .cart-item {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
-  .qty-controls {
-    margin-top: 10px;
-  }
-
-  .price {
-    text-align: left;
-    margin-top: 5px;
-  }
-
-  .cart-item img {
-    width: 100%;
-    height: auto;
-    max-width: 200px;
-  }
-
-  .summary-line,
-  .summary-total {
-    font-size: 16px;
-  }
-
-  .checkout-btn {
-    width: 100%;
-    font-size: 16px;
-  }
-
-  .shipping-section select,
-  .code-input input {
-    font-size: 14px;
-  }
-
-  .code-input button {
-    font-size: 14px;
-    padding: 8px 10px;
-  }
-
-  h2, h3 {
-    font-size: 20px;
-  }
-
-  p, label, span {
-    font-size: 14px;
-  }
-}

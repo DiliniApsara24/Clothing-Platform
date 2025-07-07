@@ -102,11 +102,14 @@ const Cart: React.FC = () => {
           </div>
 
           <div className="shipping-section">
-            <label>Shipping</label>
+            <label>Shipping</label> 
+            <br />
+            <div className="shoping-sec">
             <select value={shipping} onChange={(e) => setShipping(Number(e.target.value))}>
               <option value={5}>Standard-Delivery - $5.00</option>
               <option value={10}>Express-Delivery - $10.00</option>
             </select>
+            </div>
           </div>
 
           <div className="code-section">
