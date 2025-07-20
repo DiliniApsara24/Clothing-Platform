@@ -15,6 +15,8 @@ import Bag  from "./Pages/bag";
 import Signup from "./Pages/signup"
 import Cart  from "./Pages/cart";
 import MenItems from "./Pages/mensItems";
+import CategoryPage from "./Pages/CategoryPageMen";
+
 
 const App: React.FC = () => {
   return (
@@ -35,6 +37,7 @@ const App: React.FC = () => {
         <Route path="/signup" element={<Signup />} />
          <Route path="/cart" element={<Cart />} />
              <Route path="shop/mensItems" element={<MenItems />} />
+               <Route path="/category/:categoryName" element={<CategoryPage />} />
       </Routes>
       <Footer />
     </>
