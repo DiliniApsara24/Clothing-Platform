@@ -1,5 +1,4 @@
 // src/pages/shopMen.tsx
-
 import React from "react";
 import "../common/shopMen.css";
 import { Link } from "react-router-dom";
@@ -45,7 +44,7 @@ export default function ShopMen() {
             <img src={cat1} className="catg-pic" alt="cate" />
             <div className="item-t">
               <div className="shop-btn">
-                <Link to="/category/tshirts">
+                <Link to="/men-category/tshirts">
                   <button className="men-btn">Shop Now</button>
                 </Link>
               </div>
@@ -62,7 +61,7 @@ export default function ShopMen() {
             <img src={cat2} className="catg-pic" alt="cate" />
             <div className="item-t">
               <div className="shop-btn">
-                <Link to="/category/shirts">
+                <Link to="/men-category/shirts">
                   <button className="men-btn">Shop Now</button>
                 </Link>
               </div>
@@ -79,7 +78,7 @@ export default function ShopMen() {
             <img src={cat3} className="catg-pic" alt="cate" />
             <div className="item-t">
               <div className="shop-btn">
-                <Link to="/category/hoodies">
+                <Link to="/men-category/hoodies">
                   <button className="men-btn">Shop Now</button>
                 </Link>
               </div>
@@ -96,7 +95,7 @@ export default function ShopMen() {
             <img src={cat4} className="catg-pic" alt="cate" />
             <div className="item-t">
               <div className="shop-btn">
-                <Link to="/category/pants">
+                <Link to="/men-category/pants">
                   <button className="men-btn">Shop Now</button>
                 </Link>
               </div>

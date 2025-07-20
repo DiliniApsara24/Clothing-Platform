@@ -15,7 +15,7 @@ import Bag  from "./Pages/bag";
 import Signup from "./Pages/signup"
 import Cart  from "./Pages/cart";
 
-import CategoryPage from "./Pages/CategoryPageMen";
+import CategoryPageMen from "./Pages/CategoryPageMen";
 
 
 const App: React.FC = () => {
@@ -37,7 +37,8 @@ const App: React.FC = () => {
         <Route path="/signup" element={<Signup />} />
          <Route path="/cart" element={<Cart />} />
          
-               <Route path="/category/:categoryName" element={<CategoryPage />} />
+              <Route path="/men-category/:categoryName" element={<CategoryPageMen />} />
+
       </Routes>
       <Footer />
     </>
