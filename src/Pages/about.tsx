@@ -9,8 +9,6 @@ import about2 from "../Images/about-2.jpg"
 
 export default function About() {
   return (
-
-    
     <div>
       <div className="about-main-outer">
         <div className="about-1">
@@ -21,6 +19,9 @@ export default function About() {
               women feel confident, empowered, and ready for anything.</span>
             </p>
           </div>
+
+
+          
           <div className="welcom-pic">
             <img src={about1} className="about1-pic" alt="about" />
           </div>
