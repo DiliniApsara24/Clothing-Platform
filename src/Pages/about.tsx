@@ -9,6 +9,8 @@ import about2 from "../Images/about-2.jpg"
 
 export default function About() {
   return (
+
+    
     <div>
       <div className="about-main-outer">
         <div className="about-1">
