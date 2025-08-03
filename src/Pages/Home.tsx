@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import "../common/home.css";
 
-import hero1 from "../Images/dress1.jpg";
+
 import hero2 from "../Images/dress2.jpg";
 import hero3 from "../Images/dress3.jpg";
 import hero4 from "../Images/dress4.jpg";
@@ -11,7 +11,7 @@ import hero6 from "../Images/dress6.jpg";
 import hero7 from "../Images/dress7.jpg";
 
 
-const images = [hero1, hero2, hero3, hero4, hero5, hero6,hero7];
+const images = [hero2, hero3, hero4, hero5, hero6,hero7];
 
 const slideContent = [
   {
@@ -45,12 +45,7 @@ const slideContent = [
       "Celebrate your unique style with our range of expressive pieces. "
   },
 
-   {
-    title: "Easy Expression",
-    description:
-      "Celebrate your unique style with our range of expressive pieces. "
-  },
-
+ 
  
  
  
