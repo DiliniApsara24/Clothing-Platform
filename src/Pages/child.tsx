@@ -18,7 +18,7 @@ export default function Children() {
           <div className="child-text">
             <div className="child-tt-1">
               <b>
-                Children’s Wear  <br />
+                Kids’s Wear  <br />
                 <p className="child-tt-2">
                  Bright, soft, and durable styles they’ll love every day.
                 </p>
@@ -31,7 +31,7 @@ export default function Children() {
         </div>
         <div className="child-o-2">
           <div className="child-category-text">
-            <strong className="c-t">Our Main Categories For Children</strong>
+            <strong className="c-t">Our Main Categories</strong>
           </div>
         </div>
         <div className="child-o-3">
