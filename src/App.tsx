@@ -1,19 +1,19 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
-import Login from "./Pages/Login";
+import Login from "./Pages/LoginPage";
 import Navbar from "./Components/Navbar";
-import Home from "./Pages/Home";
+import Home from "./Pages/HomePage";
 import Footer from "./Components/footer";
-import About from "./Pages/about";
-import Contact from "./Pages/contact";
-import ShopMen from "./Pages/shopMen";
-import ShopWomen from "./Pages/shopWomen";
-import Children from "./Pages/child";
-import Accessories from "./Pages/accessories";
-import Shoes from "./Pages/shoes";
-import Bag  from "./Pages/bag";
-import Signup from "./Pages/signup"
-import Cart  from "./Pages/cart";
+import Contact from "./Pages/ContactPage";
+import ShopMen from "./Pages/ShopMenPage";
+import ShopWomen from "./Pages/ShopWomenPage";
+import Children from "./Pages/ChildPage";
+import Accessories from "./Pages/AccessoriesPage";
+import Shoes from "./Pages/ShoesPage";
+import Bag  from "./Pages/BagPage";
+import Signup from "./Pages/SignupPage"
+import Cart  from "./Pages/CartPage";
+import About from "./Pages/AboutPage";
 
 
 
