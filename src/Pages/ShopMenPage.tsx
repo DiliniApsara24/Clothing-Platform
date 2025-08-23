@@ -1,5 +1,4 @@
 // src/pages/shopMen.tsx
-import React from "react";
 import "../common/shopMen.css";
 import { Link } from "react-router-dom";
 

@@ -1,12 +1,6 @@
-import React from "react";
 import "../common/signUp.css";
 import background from "../Images/back-sign.jpg";
-import logo from "../Images/logo.png";
 import TextField from "@mui/material/TextField";
-import icon1 from "../Images/icon1.png";
-import icon2 from "../Images/icon2.png";
-import icon3 from "../Images/icon3.png";
-import { Link } from "react-router-dom";
 import logosign from "../Images/logo.png";
 
 export default function Signup() {

@@ -1,11 +1,6 @@
-import React from "react";
 import "../common/contact.css";
 
-import TextField from "@mui/material/TextField";
 
-import { Link } from "react-router-dom";
-import about1 from "../Images/about-1.jpg";
-import about2 from "../Images/about-2.jpg";
 import Con1 from "../Images/phone-call.png";
 import Con2 from "../Images/chat.png";
 import Con3 from "../Images/order-tracking.png";

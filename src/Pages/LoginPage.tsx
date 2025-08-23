@@ -1,4 +1,3 @@
-import React from "react";
 import "../common/login.css";
 import background from "../Images/product1.jpg";
 import logo from "../Images/logo.png";

@@ -1,9 +1,6 @@
-import React from "react";
 import "../common/shoes.css";
 
-import TextField from "@mui/material/TextField";
 
-import { Link } from "react-router-dom";
 import shoes from "../Images/shoes.png";
 import cat1w from "../Images/cate1s.png";
 import cat2w from "../Images/cate2s.png";

@@ -1,10 +1,6 @@
-import React from "react";
 import "../common/accessories.css";
 
-import TextField from "@mui/material/TextField";
 
-import { Link } from "react-router-dom";
-import accesspic from "../Images/acess.png";
 import cat1a from "../Images/cate1a.png";
 import cat2a from "../Images/cate2a.png";
 import cat3a from "../Images/cate3a.jpg";

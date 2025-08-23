@@ -1,9 +1,6 @@
-import React from "react";
 import "../common/child.css";
 
-import TextField from "@mui/material/TextField";
 
-import { Link } from "react-router-dom";
 import womenpic from "../Images/child.png";
 import cat1c from "../Images/cate1c.png";
 import cat2c from "../Images/cate2c.png";
